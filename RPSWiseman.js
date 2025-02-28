@@ -8,3 +8,21 @@
 5. Make it work for three rounds
 */
 
+let PlayerChoice = prompt('Rock, Paper, Scissors?', '')
+
+if (PlayerChoice != 'rock' || 'paper'){
+    prompt('That was not one of the options, reload the page and try again')
+}
+
+console.log(PlayerChoice)
+
+let ComChoice = Math.random() * 3
+console.log(ComChoice)
+
+if (ComChoice <= 1){
+    console.log(1)
+}else if (ComChoice <= 2){
+    console.log(2)
+}else if (ComChoice <= 3){
+    console.log(3)
+}
