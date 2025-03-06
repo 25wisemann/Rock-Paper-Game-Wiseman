@@ -11,7 +11,7 @@
 let PlayerWins = 0
 let ComputerWins = 0
 
-for(let RoundCount = 1; RoundCount <= 10000000; RoundCount++){
+for(let RoundCount = 1; RoundCount <= Infinity ; RoundCount++){
 
 let PlayerChoice = prompt('Rock, Paper, Scissors?', '')
 
